@@ -1,0 +1,124 @@
+export const perguntas = [
+    {
+        enunciado: "Saindo da taverna da vila, você encontra um artefato místico antigo brilhando perto do riacho. Ele emite um sussurro em uma língua esquecida. Qual a sua primeira reação?",
+        alternativas: [
+            {
+                texto: "Recuar e sacar sua arma, temendo ser uma maldição.",
+                afirmacao: [
+                    "Sua cautela o protegeu de emboscadas ao longo da jornada.",
+                    "Sempre preferiu a segurança do aço à imprevisibilidade da magia."
+                ],
+                proxima: 1,
+            },
+            {
+                texto: "Aproximar-se e tocar no artefato para canalizar seu poder.",
+                afirmacao: [
+                    "Sua curiosidade pelo arcano abriu caminhos misteriosos.",
+                    "Desenvolveu uma forte conexão com as forças místicas do reino."
+                ],
+                proxima: 2,
+            },
+        ]
+    },
+    {
+        enunciado: "Ao seguir pela estrada da floresta, você ouve gritos de socorro: mercadores estão sendo atacados por goblins. Como você age?",
+        alternativas: [
+            {
+                texto: "Lança-se ao combate direto para salvar os mercadores e proteger os inocentes.",
+                afirmacao: [
+                    "Sua bravura em combate tornou seu nome honrado entre as vilas.",
+                    "Ganhou a confiança dos comerciantes e o respeito dos guardas reais."
+                ],
+                proxima: 3,
+            },
+            {
+                texto: "Usa as sombras das árvores para contornar a emboscada e atacar o líder goblin de surpresa.",
+                afirmacao: [
+                    "Sua astúcia tática permitiu resolver conflitos sem desperdiçar energia.",
+                    "Aprendeu a valorizar a estratégia acima da força bruta."
+                ],
+                proxima: 4,
+            },
+        ]
+    },
+    {
+        enunciado: "A energia do artefato revela um mapa para a Masmorra dos Antigos. Na entrada, uma Inscrição Runica bloqueia a passagem. Como pretende passar?",
+        alternativas: [
+            {
+                texto: "Decifrar as runas usando seus conhecimentos de línguas antigas.",
+                afirmacao: [
+                    "Sua sabedoria e estudo de tomos antigos resolveram enigmas complexos.",
+                    "Demonstrou que a mente é a arma mais afiada de um aventureiro."
+                ],
+                proxima: 3,
+            },
+            {
+                texto: "Usar o próprio artefato místico para canalizar uma explosão de energia e quebrar o selo.",
+                afirmacao: [
+                    "Não hesita em usar magia de grande poder para abrir caminho.",
+                    "Tornou-se conhecido por manipular forças arcanas com ousadia."
+                ],
+                proxima: 4,
+            },
+        ]
+    },
+    {
+        enunciado: "Dentro da masmorra, a guilda de cavaleiros da região convoca você para um conselho. Eles debatem se devem destruir as criaturas arcanas ou tentar dominá-las. Qual o seu posicionamento?",
+        alternativas: [
+            {
+                texto: "Defende a eliminação total das criaturas para garantir a paz no reino.",
+                afirmacao: [
+                    "Lutou incansavelmente pela proteção das terras e pela ordem divina.",
+                    "Foi nomeado Protetor do Reino ao lado dos cavaleiros de elite."
+                ],
+                proxima: 5,
+            },
+            {
+                texto: "Propõe estudar as criaturas e criar um pacto de convivência harmônica.",
+                afirmacao: [
+                    "Fundou uma ordem diplomática voltada para a integração de seres mágicos.",
+                    "Trabalhou para reduzir os conflitos entre humanos e seres arcanos."
+                ],
+                proxima: 6,
+            },
+        ]
+    },
+    {
+        enunciado: "Nas profundezas do salão principal, você encontra o Dragão Guardião adormecido sobre o tesouro real. Qual será seu último ato?",
+        alternativas: [
+            {
+                texto: "Usar suas habilidades para passar furtivamente e recuperar a relíquia sem acordá-lo.",
+                afirmacao: [
+                    "Conseguiu recuperar a relíquia com maestria e discrição lendárias.",
+                    "Provou que o silêncio e a precisão valem mais do que mil espadas."
+                ],
+            },
+            {
+                texto: "Desafiar o Dragão para uma batalha épica pela honra e pelo destino do reino.",
+                afirmacao: [
+                    "Enfrontou a besta lendária em um duelo que será cantado por bardos por gerações.",
+                    "Sua coragem inspirou jovens de todas as províncias a seguirem o caminho do herói."
+                ],
+            },
+        ]
+    },
+    {
+        enunciado: "No salão do trono da masmorra, o Rei Lich oferece a você uma aliança em troca de parte do seu poder. Como responde?",
+        alternativas: [
+            {
+                texto: "Recusa a oferta e canaliza toda a sua energia para banir o Lich para sempre.",
+                afirmacao: [
+                    "Sua retidão moral purificou a escuridão que ameaçava o continente.",
+                    "O reino prosperou sob a paz conquistada por sua determinação."
+                ],
+            },
+            {
+                texto: "Aceita o pacto para governar ao lado dele, garantindo poder absoluto.",
+                afirmacao: [
+                    "Assumiu o trono das sombras, tornando-se o soberano mais temido da era.",
+                    "Remodela o destino do mundo sob uma nova e inflexível ordem."
+                ],
+            },
+        ]
+    }
+];
